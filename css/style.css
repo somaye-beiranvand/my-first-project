@@ -5,9 +5,13 @@
 a{
     text-decoration: none;
 }
+.center{
+    text-align: center;
+}
+
 .container{
     width: 1440px;
-   height: 970px;
+    height: 900px;
     margin: 0 auto;
     background-color: hsl(225, 100%, 94%);
     position: relative;
@@ -15,10 +19,8 @@ a{
     
 }
 .background-img{
-    width: 100%;
-   
+    width: 100%;   
 }
-
  .main{
     width: 27%;         
     padding-bottom: 30px;
@@ -45,11 +47,16 @@ a{
     box-sizing: border-box;
 }
 
-.dark-blue-element{
-    width: 308.8px;
-    margin: 0 auto;
-    height: 60px;
+.price-container
+{
+    height: 120px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color:hsl(225, 100%, 98%);
     border-radius: 15px;
+}
+.price{
+    height: 160px;
 }
 .price-left{
     width: 15%;
@@ -82,24 +89,18 @@ a{
 .change-price a{
     text-decoration: underline;
 }
-.center{
-    text-align: center;
-}
-.price{
-    height: 160px;
-}
-.price-container
-{
-    height: 120px;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    background-color:hsl(225, 100%, 98%);
-    border-radius: 15px;
-}
 .dark-blue-element{
     background-color: hsl(245, 75%, 52%);
     color: #ffffff;
+    width: 308.8px;
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 15px;
 }
 .dark-blue-element a{
     color: #ffffff;
+}
+.first-element{
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
 }
