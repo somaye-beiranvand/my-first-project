@@ -26,7 +26,7 @@ a{
     padding-bottom: 30px;
     position: absolute;
     top: 140px;
-    left: 504px;  
+    left: 520px;  
     border-radius: 30px;  
     overflow: hidden;
     box-sizing: border-box;
@@ -86,6 +86,10 @@ a{
     right: 0;
     bottom: 40px;
 }
+.change-price a:hover{
+    text-decoration: none;
+    color: #764AF1;
+}
 .change-price a{
     text-decoration: underline;
 }
@@ -97,10 +101,30 @@ a{
     height: 60px;
     border-radius: 15px;
 }
+.dark-blue-element:hover{
+    background-color: #764AF1;
+}
 .dark-blue-element a{
     color: #ffffff;
 }
 .first-element{
     font-size: 18px;
     color: hsl(223, 47%, 23%);
+}
+.second-element{
+    color: hsl(224, 23%, 55%);
+}
+.price-right-title{
+    color: hsl(223, 47%, 23%);
+}
+.price-right-description{
+    color:hsl(224, 23%, 55%) ;
+    font-size: 14px;
+}
+.fifth-element a{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.fifth-element a:hover{
+    color:hsl(223, 47%, 23%) ;
 }
